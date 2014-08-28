@@ -1,0 +1,11 @@
+<?php
+namespace orm;
+require_once("DBInterface.php");
+class BaseClass{
+	Database $db;
+
+	__construct($driver)
+	{
+		
+	}
+}
